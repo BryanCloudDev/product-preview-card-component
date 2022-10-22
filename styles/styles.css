@@ -94,6 +94,9 @@ body {
 .container .description .add-btn button img {
   margin-right: 0.8rem;
 }
+.container .description .add-btn button:active {
+  background-color: hsl(158deg, 90%, 15%);
+}
 
 @media screen and (min-width: 643px) {
   .container {
