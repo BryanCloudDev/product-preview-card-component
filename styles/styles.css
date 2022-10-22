@@ -1,3 +1,93 @@
+html {
+  font-size: 62.5%;
+}
 
+body {
+  background-color: hsl(30deg, 38%, 92%);
+  font-size: 1.4rem;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 8px;
+  display: inherit;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0rem;
+  overflow: hidden;
+  width: 90%;
+}
+.container .img-container {
+  width: 100%;
+}
+.container .img-container img {
+  width: 100%;
+}
+.container .description {
+  width: 85%;
+}
+.container .description h2 {
+  color: hsl(228deg, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: inherit;
+  font-weight: normal;
+  letter-spacing: 0.5rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.container .description h1 {
+  font-family: "Fraunces", serif;
+  color: hsl(212deg, 21%, 14%);
+}
+.container .description p {
+  color: hsl(228deg, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+}
+.container .description .price {
+  display: flex;
+  widows: 100%;
+  align-items: center;
+}
+.container .description .price .left-text,
+.container .description .price .right-text {
+  width: 100%;
+}
+.container .description .price .left-text {
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  color: hsl(158deg, 36%, 37%);
+}
+.container .description .price .right-text {
+  color: hsl(228deg, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+.container .description .add-btn {
+  width: 100%;
+}
+.container .description .add-btn button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0rem;
+  background-color: hsl(158deg, 36%, 37%);
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  border: 0px;
+  border-radius: 0.8rem;
+}
+.container .description .add-btn button img {
+  margin-right: 0.8rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
