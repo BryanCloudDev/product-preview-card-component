@@ -11,7 +11,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 100%;
+  min-width: 100vw;
   min-height: 100vh;
 }
 
@@ -24,12 +24,15 @@ body {
   margin: 2rem 0rem;
   overflow: hidden;
   width: 90%;
+  min-width: 33.75rem;
+  max-width: 42.7rem;
 }
 .container .img-container {
   width: 100%;
 }
 .container .img-container img {
   width: 100%;
+  vertical-align: top;
 }
 .container .description {
   width: 85%;
@@ -53,9 +56,7 @@ body {
   line-height: 2rem;
 }
 .container .description .price {
-  display: flex;
-  widows: 100%;
-  align-items: center;
+  width: 100%;
 }
 .container .description .price .left-text,
 .container .description .price .right-text {
@@ -65,10 +66,14 @@ body {
   font-family: "Fraunces", serif;
   font-size: 3rem;
   color: hsl(158deg, 36%, 37%);
+  display: flex;
+  align-items: center;
 }
 .container .description .price .right-text {
   color: hsl(228deg, 12%, 48%);
   font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  margin-left: 1.5rem;
 }
 .container .description .add-btn {
   width: 100%;
@@ -88,6 +93,36 @@ body {
 }
 .container .description .add-btn button img {
   margin-right: 0.8rem;
+}
+
+@media screen and (min-width: 643px) {
+  .container {
+    flex-wrap: nowrap;
+    height: 42.4rem;
+    max-width: 56rem;
+  }
+  .container .img-container,
+.container .description {
+    width: 50%;
+    height: 100%;
+  }
+  .container .img-container {
+    height: 100%;
+  }
+  .container .img-container img {
+    height: 100%;
+    width: auto;
+  }
+  .container .description {
+    display: flex;
+    justify-content: center;
+  }
+  .container .description .inner-description {
+    max-width: 21rem;
+  }
+  .container .description .inner-description .add-btn {
+    margin: 3rem 0rem 3rem 0rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
