@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-faq-component-using-sass-and-html-only-4ySHTKgYW)
+- Solution URL: (https://www.frontendmentor.io/solutions/product-preview-card-component-K-rFjbu0j3)
 - Live Site URL: (https://bryanclouddev.github.io/product-preview-card-component/)
 
 ## My process
